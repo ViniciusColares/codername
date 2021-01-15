@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codername</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Revalia&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="appname">codername</h1>
+    <div class="sphere sphere-size--1"></div>
+    <div class="sphere sphere-size--2"></div>
+    <div class="sphere sphere-size--3"></div>
+    <main>
+      <h2 class="title">Resultado</h2>
+      <div class="result">
+        <input id="codiname" type="text" placeholder="seu codinome" />
+
+        <div class="charNumber">
+          <div id="charNumber">5</div>
+          <div class="charNumber--control">
+            <span class="charUp" id="charUp"></span>
+            <span class="charDown blocked" id="charDown"></span>
+          </div>
+        </div>
+      </div>
+
+      <div id="history">
+        <h2 class="title">Histórico</h2>
+      </div>
+
+      <div class="generator">
+        <input id="boringName" type="text" placeholder="nome para codificar" />
+        <button id="generate" type="button">Gerar codinome</button>
+      </div>
+    </main>
+
+    <footer>
+      Desenvolvido por
+      <a href="https://viniciuscolares.com">Vinícius Colares</a>.<br />Com
+      propósito exclusivamente educativo.
+    </footer>
+
+    <!-- injetando um script js no documento -->
+    <script src="./brain.js"></script>
+  </body>
+</html>
