@@ -42,8 +42,8 @@ main {
 }
 
 h1.appname {
-  font-size: 36px;
-  line-height: 60px;
+  font-size: 28px;
+  line-height: 40px;
   text-align: center;
   color: #831aec;
   text-shadow: 0px -5px 0px rgb(255, 255, 255), 5px -0px 0px rgb(255, 255, 255),
@@ -51,8 +51,8 @@ h1.appname {
 }
 
 .title {
-  font-size: 21px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 24px;
   color: #831aec;
   margin: 0;
 }
@@ -75,8 +75,8 @@ main > .title {
 #codiname {
   border: none;
   padding: 14px 10px;
-  font-size: 19px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 22px;
   color: #454545;
   border-radius: 6px;
   background-color: #f3f3f3;
@@ -103,7 +103,8 @@ main > .title {
   font-family: "Press Start 2P", cursive;
   width: 60px;
   background-color: #f3f3f3;
-  font-size: 23px;
+  font-size: 18px;
+  line-height: 20px;
   font-weight: 600;
   justify-content: center;
   align-items: center;
@@ -202,7 +203,7 @@ main > .title {
 #history p {
   margin: 8px 0;
   color: #454545;
-  font-size: 18px;
+  font-size: 15px;
   text-transform: capitalize;
   width: 100%;
   text-align: center;
@@ -221,8 +222,8 @@ main > .title {
   background-color: #f3f3f3;
   width: 100%;
   border-radius: 6px;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 22px;
   text-align: center;
   color: #444;
   box-sizing: border-box;
@@ -236,15 +237,15 @@ main > .title {
   background-color: #831aec;
   width: 100%;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   color: #fff;
   cursor: pointer;
 }
 
 footer {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 10px;
+  line-height: 14px;
   text-align: center;
   color: #666;
 }
