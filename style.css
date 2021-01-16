@@ -76,6 +76,7 @@ main > .title {
   border: none;
   padding: 14px 10px;
   font-size: 19px;
+  line-height: 26px;
   color: #454545;
   border-radius: 6px;
   background-color: #f3f3f3;
@@ -221,6 +222,7 @@ main > .title {
   width: 100%;
   border-radius: 6px;
   font-size: 18px;
+  line-height: 26px;
   text-align: center;
   color: #444;
   box-sizing: border-box;
