@@ -24,7 +24,7 @@ body {
   background: #c2e59c;
   background: -webkit-linear-gradient(to bottom right, #64b3f4, #c2e59c);
   background: linear-gradient(to bottom right, #64b3f4, #c2e59c);
-  font-family: "Revalia", cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 main {
@@ -46,21 +46,21 @@ h1.appname {
   line-height: 60px;
   text-align: center;
   color: #831aec;
-  text-shadow: 0px -4px 0px rgb(255, 255, 255), 4px -0px 0px rgb(255, 255, 255),
-    -4px 0px 0px rgb(255, 255, 255), 0px 4px 0px rgb(255, 255, 255);
+  text-shadow: 0px -5px 0px rgb(255, 255, 255), 5px -0px 0px rgb(255, 255, 255),
+    -5px 0px 0px rgb(255, 255, 255), 0px 5px 0px rgb(255, 255, 255);
 }
 
 .title {
-  font-size: 28px;
-  line-height: 27px;
+  font-size: 21px;
+  line-height: 26px;
   color: #831aec;
   margin: 0;
 }
 
 main > .title {
   margin-bottom: 30px;
-  text-shadow: 0px -2px 0px rgb(255, 255, 255), 2px -0px 0px rgb(255, 255, 255),
-    -2px 0px 0px rgb(255, 255, 255), 0px 2px 0px rgb(255, 255, 255);
+  text-shadow: 0px -3px 0px rgb(255, 255, 255), 3px -0px 0px rgb(255, 255, 255),
+    -3px 0px 0px rgb(255, 255, 255), 0px 3px 0px rgb(255, 255, 255);
 }
 
 .result {
@@ -83,7 +83,7 @@ main > .title {
   text-transform: capitalize;
   width: calc(100% - 84px);
   box-sizing: border-box;
-  font-family: "Revalia", cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 .charNumber {
@@ -100,7 +100,7 @@ main > .title {
   align-self: center;
   padding: 6px 10px;
   border-left: 2px solid #dcdcdc;
-  font-family: "Revalia", cursive;
+  font-family: "Press Start 2P", cursive;
   width: 60px;
   background-color: #f3f3f3;
   font-size: 23px;
@@ -195,8 +195,8 @@ main > .title {
 }
 #history .title {
   margin-bottom: 8px;
-  text-shadow: 0px -2px 0px rgb(255, 255, 255), 2px -0px 0px rgb(255, 255, 255),
-    -2px 0px 0px rgb(255, 255, 255), 0px 2px 0px rgb(255, 255, 255);
+  text-shadow: 0px -3px 0px rgb(255, 255, 255), 3px -0px 0px rgb(255, 255, 255),
+    -3px 0px 0px rgb(255, 255, 255), 0px 3px 0px rgb(255, 255, 255);
 }
 
 #history p {
@@ -215,7 +215,7 @@ main > .title {
 }
 
 .generator > input {
-  font-family: "Revalia", cursive;
+  font-family: "Press Start 2P", cursive;
   border: none;
   padding: 16px 12px;
   background-color: #f3f3f3;
@@ -229,23 +229,24 @@ main > .title {
 }
 
 .generator button {
-  font-family: "Revalia", cursive;
+  font-family: "Press Start 2P", cursive;
   margin-top: 8px;
   border: none;
   padding: 16px 12px;
   background-color: #831aec;
   width: 100%;
   border-radius: 6px;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16px;
   text-align: center;
   color: #fff;
   cursor: pointer;
 }
 
 footer {
-  font-size: 11px;
+  font-size: 12px;
+  line-height: 18px;
   text-align: center;
+  color: #666;
 }
 
 footer a {

@@ -26,7 +26,7 @@ function generateCodename() {
   }
 
   history.unshift(result.value);
-  result.value = codiname;
+  result.value = codiname.toLocaleLowerCase();
   histContainer.innerHTML = "<h2 class='title'>Histórico</h2>";
   history.forEach((name) => {
     const p = document.createElement("p");
